@@ -1,0 +1,566 @@
+/* ------------- MOBILE ----------------- */
+
+@media screen and (max-width: 500px){
+
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header{
+    width: 100%;
+    height: 75px;
+    display: flex;
+  }
+
+  header .menu{
+    width: 49%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  header .menu a{
+    display: none;
+  }
+
+  header .menu button{
+    display: none;
+  }
+
+  header .menu .responsivomenu{
+    font-size: 16px;
+    gap: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo{
+    width: 49%;
+    display: flex;
+    margin-left: 0px;
+    align-items: center;
+  }
+
+  /* BLOCO 1 */
+
+  .bloco1{
+    width: 100%;
+    height: 592px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+
+  .bloco1 .bg1{
+    width: 100%;
+    height: 592px;
+    background-image: url('./Imagens/1-3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+
+  .bloco1 .bg1 .tst2{
+    position: relative;
+    top: 100px;
+    left: 20px;
+
+    width: 485px;
+    height: 310px;
+
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .bloco1 .bg1 .textoresponsivoprincipal h1{
+    height: 100px;
+    width: 237px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    color: var(--branco);
+  }
+  
+  .bloco1 .bg1 .textoresponsivoprincipal #todos2{
+    background: var(--azul-claro);
+    float: right;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 240px;
+    top: 0px;
+    left: 0px;
+  }
+  
+  .bloco1 .bg1 .textoresponsivoprincipal p{
+    width: 335px;
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--branco);
+  }
+  
+  .bloco1 .bg1 .textoresponsivoprincipal button{
+    width: 178px;
+    height: 41px;
+    background: var(--azul-claro);
+    border-radius: 5px;
+    margin-top: 30px;
+  
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--branco);
+    cursor: pointer;
+  }
+  
+  .bloco1 .bg1 .textoresponsivoprincipal button:hover{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  .bloco1 .escrita1{
+    display: none;
+  } 
+
+  .bloco1 .svg1 svg{
+    display: none;
+  }
+  
+  /* SOBRE NÓS */
+
+  .bloco2{
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bloco2 .esquerda{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bloco2 .esquerda #sobrenosimg{
+    display: none;
+  }
+
+  .bloco2 .sobrenosimg{
+    width: 340px;
+    height: 340px;
+    background-image: url('./Imagens/sobrenosred.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bloco2 .direita{
+    margin-top: 32px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .bloco2 .direita .texto2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bloco2 .direita .texto2 h1{
+    width: 336px;
+  }
+
+  .bloco2 .direita .texto2 p{
+    width: 336px;
+    font-size: 16px;
+  }
+
+  .bloco2 .direita .texto2 button{
+    position: relative;
+    left: -95px;
+  }
+
+
+  /* NOSSAS AÇOES */
+  .bloco3{
+    margin-top: 62px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bloco3 .direita3{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+  }
+  
+  .bloco3 .direita3 img{
+    display: none;
+  }
+  
+  .bloco3 .esquerda3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .bloco3 .esquerda3 .nossasacoesimg{
+    width: 340px;
+    height: 340px;
+    background-image: url('./Imagens/sobrenosred2.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bloco3 .esquerda3 .texto3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bloco3 .esquerda3 .texto3 h1{
+    width: 336px;
+    margin-top: 32px;
+  }
+
+  .bloco3 .esquerda3 .texto3 p{
+    width: 336px;
+    font-size: 16px;
+  }
+
+  .bloco3 .esquerda3 .texto3 button{
+    position: relative;
+    left: -95px;
+  }
+
+
+  /* SEJA VOLUNTÁRIO */
+
+  .ntcfnd{
+    margin-top: 123px;
+    width: 100%;
+    height: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FAFAFA;
+  }
+
+  .noticias{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .noticias .esquerda-noticias{
+    background-image: url('./Imagens/sejavooluntario-1-1-mobile.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 545px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 5px;
+  }
+
+  .noticias .esquerda-noticias:hover{
+    background-image: url('./Imagens/sejavooluntario-1-1-mobile.png');
+  }
+
+  .noticias .direita-noticias{
+    background-image: url('./Imagens/sejavooluntario-2-2-mobile.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 545px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+
+  .noticias .direita-noticias:hover{
+    background-image: url('./Imagens/sejavooluntario-2-2-mobile.png');
+  }
+
+
+  /* OQUE DIZEM */
+
+
+  .oquedizem{
+    margin-top: 120px;
+    width: 335px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .esq-dizem{
+    width: 100%;
+    height: 150px;
+  }
+
+  .dir-dizem{
+    position: relative;
+    top: 60px;
+    left: -80px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+  }
+
+
+  .dir-dizem .voltar {
+    display: none;
+  }
+
+  .dir-dizem .voluntario{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dir-dizem .voluntario img{
+    width: 120px;
+  }
+
+
+  .dir-dizem .avancar {
+    display: none;
+  }
+
+  .comentario{
+    width: 335px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: default;
+  }
+
+  .comentario .nomevoluntario{
+    width: 120px;
+    position: relative;
+    top: -80px;
+    left: 140px;
+    margin: 0px;
+    border: 0px;
+  }
+
+  .comentario .comentariovoluntario{
+    width: 335px;
+    position: relative;
+    top: -50px;
+  }
+
+  .comentario .comentariovoluntario p{
+    width: 330px;
+    border-top: 2px solid #EAEAED;
+    padding-top: 10px;
+  }
+
+  .comentario .mudar{
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+
+  /* NOSSO BLOG */
+
+
+  .blog{
+    margin-top: 120px;
+    width: 335px;
+    max-height: 1350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .blog .blogtitulo{
+    display: none;
+  }
+
+  .blog .blogtitulo2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+
+  .blog .blogtitulo2 h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--azul-claro);
+  }
+
+  .blog .blogtitulo2 span{
+    font-size: 40px;
+    font-weight: 700;
+    background: var(--laranja);
+    color: var(--branco);
+  }
+
+  .blog .blogmaterias{
+    width: 100%;
+    display: flex;
+  }
+
+  .blog .blogmaterias .noticia1{
+    width: 100%;
+    height: 360px;
+    margin-bottom: 32px;
+  }
+
+  .blog .blogmaterias .caixa{
+    width: 335px;
+    height: 357px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .blog .blogmaterias .noticia1 img{
+    width: 335px;
+  }
+
+  .blog .blogmaterias .noticia2{
+    width: 335px;
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: center;
+    align-items: flex-end;
+    margin-bottom: 32px;
+  }
+
+  .blog .blogmaterias .noticia2 img{
+    width: 335px;
+  }
+
+  .blog .blogmaterias .noticia3{
+    width: 335px;
+    display: flex;  
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+  }
+
+  .blog .blogmaterias .noticia3 img{
+    width: 335px;
+  }
+
+
+  .blog .botaoblog{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px
+  }
+
+  .blog .botaoblog button{
+    width: 143px;
+    font-size: 14px;
+  }
+
+  /* RODAPÉ */
+
+  .borda2{
+    margin-top: 125px;
+    margin-bottom: 57px;
+    width: 100%;
+    height: 2px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  .rodape{
+    width: 375px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+  .rodape .resumo{
+    width: 100%;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rodape .links{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .rodape .politicas{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 50px;
+  }
+
+  .rodape .contato3{
+    width: 100%;
+    height: 191px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .rodape .contato3 h2{
+    width: 170px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .rodape .contato3 a{
+    appearance: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--preto);
+  }
+
+  .rodape .contato{
+    display: none;
+  }
+}
